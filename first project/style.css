@@ -1,0 +1,66 @@
+body{
+    font-family: 'Lato', sans-serif;
+padding: 0;
+margin: 0;
+}
+
+nav{
+    background-color: rgb(35, 36, 33);
+    color: beige;
+    padding: 20px 50px;
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 238, 243);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.searchInput{
+border: none;
+background-color: rgb(108, 85, 85);
+}
+.searchInput::placeholder{
+    color: white;
+}
+.limitedOffer{
+    font: size 20px; 
+    border-bottom: 2px solid green;
+    cursor: pointer;
+}
+
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.manueItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color: lightgrey;
+    font-weight: 400;
+}
+.slider{
+    background : Url("https://unsplash.com/photos/black-and-white-striped-textile--TnlLhj46iQ")
+    clip-path : polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+
+}
+.sliderwrapper{
+    display: flex ;
+    width: 500vw;
+
+    
+}
+.sliderItem{
+    width: 100vw;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
